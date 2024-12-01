@@ -22,7 +22,7 @@ def main(choice):
             total_distance += max(left_list[i], right_list[i]) - min(left_list[i], right_list[i])
         
         print(total_distance)
-    else:
+    elif choice == "2":
         similarity_score = 0
         for i in range(0, len(left_list)):
             total_appearances = 0
