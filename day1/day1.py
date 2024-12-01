@@ -5,12 +5,6 @@ def append_numbers(line, left, right):
     right.append(int(right_number))
     return
     
-    
-
-
-
-
-
 def main1():
     #read and create left & right list
     f = open("day1\input.txt")
@@ -28,8 +22,6 @@ def main1():
     
     print(total_distance)
 
-    
-
 def main2():
     #read and create left & right list
     f = open("day1\input.txt")
@@ -46,11 +38,6 @@ def main2():
                 total_appearances += 1
         similarity_score += left_list[i] * total_appearances
     print(similarity_score)
-
-    
-
-    
-
 
 choice = input("part 1 or 2? ")
 if choice == "1":
